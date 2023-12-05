@@ -1,0 +1,36 @@
+.splide__list {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+  overflow: visible;
+}
+
+.splide--track {
+  overflow: visible !important;
+}
+
+.splide__pagination > li > .splide__pagination__page {
+  border-radius: 100vw;
+  margin: 0px;
+  height: 6px;
+  width: 6px;
+}
+
+.splide__pagination > li > .splide__pagination__page.is-active {
+  background-color: #8c8c8c;
+  width: 32px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.splide__pagination {
+  display: flex;
+  gap: 4px;
+  position: relative;
+}
+
+.splide__track--nav > .splide__list > .splide__slide {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.splide__track--nav > .splide__list > .splide__slide.is-active {
+  border: 1px solid rgba(0, 0, 0, 0.19);
+}
